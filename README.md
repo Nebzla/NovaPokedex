@@ -9,26 +9,25 @@ An Open Source Discord Bot For A Pokemon Style Game!
   
 <h2>Info</h2>
 
-Disclaimer: Multiple confidential + node.js files are hidden. Copy and pasting the code WILL NOT make the bot work. 
-
-A config.json file and a preferences.db database in /databases are required
   
-The config should look like this:
+To connect the code to your bot, head to the config.json and fill in the token and prefix option with the appropiate data, here's an example below:
+  
 ```json
 {
-    "token": "yourBotTokenHere",
-    "prefix": "yourCommandPrefixHere"
+    "token": "eUzMjc0gY2ODyEweyMzcz.YqS_9Q.307ekqvMjRz7efHkmeJs", //Yes This Token Is Invalid
+    "prefix": "%"
 }
 ```
   
-The bot uses SQLite as a DB and discord.js for making requests to the Discord API, feel free to edit these as you please.
-  
-To make the application, enter these node commands:
+To install the required libraries for the project, use the following commands:
 ```
 npm init -y
 npm i discord.js
 npm i sqlite3.0.0
 ```
+The DB used is sqlite but feel free to change this as you please!
+  
+If you would like to change the pokemon feel free to in pokedex.json. Please keep in mind the max amount of roles in a server is 200.
   
 Currently the bot is extremely lackluster but will be developed further in future, enjoy what i've got so far!
 
