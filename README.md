@@ -7,7 +7,7 @@ An Open Source Discord Bot For A Pokemon Style Game!
 - You may not claim the bot as your own.
   
   
-<h2>Info</h2>
+<h1>Setup</h1>
 
   
 To connect the code to your bot, head to the config.json and fill in the token and prefix option with the appropiate data, here's an example below:
