@@ -1,6 +1,7 @@
 <h1>NovaPokedex</h1>
 An Open Source Discord Bot For A Pokemon Style Game!
 
+Plan: A Fully fledged game where you can catch pokemon and fight with them with images to display whats going on
 
 <h2>Terms Of Service</h2>
 - You may not use this bot for financial gain.<br>
