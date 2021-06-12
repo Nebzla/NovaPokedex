@@ -20,14 +20,9 @@ Unsure on where to get the token? https://discord.com/developers/applications
 }
 ```
 (That token is not valid so don't try and use it)
+ 
   
-To install the required libraries for the project, use the following commands in a terminal navigated to the chosen folder of the application:
-```
-npm init -y (To initialise the application)
-npm install (Should install all current dependencies)
-```
-  
-Don't have node.js? Install it here: https://nodejs.org/en/
+Node.js is required for the application to work. Don't have node.js? Install it here: https://nodejs.org/en/
 The DB used is SQLite but feel free to change this as you please!
   
 If you would like to change the pokemon you can in pokedex.json. Please keep in mind the max amount of roles in a server is 200. I would recommend staying below 160 pokemon
