@@ -30,7 +30,7 @@ npm i discord.js
 npm i sqlite3.0.0
 ```
   
-Currently the bot is extremely lackluster but will be developped further in future, enjoy what i've got so far!
+Currently the bot is extremely lackluster but will be developed further in future, enjoy what i've got so far!
 
 Discord: Nebzla#5032
 
