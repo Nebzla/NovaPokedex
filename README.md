@@ -2,7 +2,7 @@
 An Open Source Discord Bot For A Pokemon Style Game!
 
 
-<u>Terms Of Service<u>
+<u>Terms Of Service</u>
 - You may not use this bot for financial gain.
 - You may not claim the bot as your own.
   
