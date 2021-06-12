@@ -14,11 +14,11 @@ Disclaimer: Multiple confidential + node.js files are hidden. Copy and pasting t
 A config.json file and a preferences.db database in /databases are required
   
 The config should look like this:
-
+```js
 {
     "token": "yourBotTokenHere",
     "prefix": "yourCommandPrefixHere"
 }
-  
+```  
 Currently the bot is extremely lackluster but will be developped further in future, enjoy what i've got so far!
  
