@@ -11,13 +11,15 @@ An Open Source Discord Bot For A Pokemon Style Game!
 
   
 To connect the code to your bot, head to the config.json and fill in the token and prefix option with the appropiate data, here's an example below:
-  
+
+Unsure on where to get the token? https://discord.com/developers/applications
 ```json
 {
-    "token": "eUzMjc0gY2ODyEweyMzcz.YqS_9Q.307ekqvMjRz7efHkmeJs", //Yes This Token Is Invalid
+    "token": "eUzMjc0gY2ODyEweyMzcz.YqS_9Q.307ekqvMjRz7efHkmeJs", 
     "prefix": "%"
 }
 ```
+(That token is not valid so don't try and use it)
   
 To install the required libraries for the project, use the following commands:
 ```
