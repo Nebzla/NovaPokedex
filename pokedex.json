@@ -1,761 +1,153 @@
-
-
 [
-    {
-       "id": "0",
-       "name": "Bulbasaur"
-        
-    },
-    {
-       "id": "1",
-       "name": "Ivysaur"
-        
-    },
-    {
-       "id": "2",
-       "name": "Venusaur"
-        
-    },
-    {
-       "id": "3",
-       "name": "Charmander"
-        
-    },
-    {
-       "id": "4",
-       "name": "Charmeleon"
-        
-    },
-    {
-       "id": "5",
-       "name": "Charizard"
-        
-    },
-    {
-       "id": "6",
-       "name": "Squirtle"
-        
-    },
-    {
-       "id": "7",
-       "name": "Wartortle"
-        
-    },
-    {
-       "id": "8",
-       "name": "Blastoise"
-        
-    },
-    {
-       "id": "9",
-       "name": "Caterpie"
-        
-    },
-    {
-       "id": "10",
-       "name": "Metapod"
-        
-    },
-    {
-       "id": "11",
-       "name": "Butterfree"
-        
-    },
-    {
-       "id": "12",
-       "name": "Weedle"
-        
-    },
-    {
-       "id": "13",
-       "name": "Kakuna"
-        
-    },
-    {
-       "id": "14",
-       "name": "Beedrill"
-        
-    },
-    {
-       "id": "15",
-       "name": "Pidgey"
-        
-    },
-    {
-       "id": "16",
-       "name": "Pidgeotto"
-        
-    },
-    {
-       "id": "17",
-       "name": "Pidgeot"
-        
-    },
-    {
-       "id": "18",
-       "name": "Rattata"
-        
-    },
-    {
-       "id": "19",
-       "name": "Raticate"
-        
-    },
-    {
-       "id": "20",
-       "name": "Spearow"
-        
-    },
-    {
-       "id": "21",
-       "name": "Fearow"
-    
-    },
-    {
-       "id": "22",
-       "name": "Ekans"
-        
-    },
-    {
-       "id": "23",
-       "name": "Arbok"
-        
-    },
-    {
-       "id": "24",
-       "name": "Pikachu"
-    
-    },
-    {
-       "id": "25",
-       "name": "Raichu"
-        
-    },
-    {
-       "id": "26",
-       "name": "Sandshrew"
-        
-    },
-    {
-       "id": "27",
-       "name": "Sandslash"
-        
-    },
-    {
-       "id": "28",
-       "name": "Nidoran-F"
-        
-    },
-    {
-       "id": "29",
-       "name": "Nidorina"
-        
-    },
-    {
-       "id": "30",
-       "name": "Nidoqueen"
-
-    },
-    {
-       "id": "31",
-       "name": "Nidoran-M"
-        
-    },
-    {
-       "id": "32",
-       "name": "Nidorino"
-        
-    },
-    {
-       "id": "33",
-       "name": "Nidoking"
-        
-    },
-    {
-       "id": "34",
-       "name": "Clefairy"
-        
-    },
-    {
-       "id": "35",
-       "name": "Clefable"
-        
-    },
-    {
-       "id": "36",
-       "name": "Vulpix"
-        
-    },
-    {
-       "id": "37",
-       "name": "Ninetales"
-        
-    },
-    {
-       "id": "38",
-       "name": "Jigglypuff"
-        
-    },
-    {
-       "id": "39",
-       "name": "Wigglytuff"
-        
-    },
-    {
-       "id": "40",
-       "name": "Zubat"
-        
-    },
-    {
-       "id": "41",
-       "name": "Golbat"
-        
-    },
-    {
-       "id": "42",
-       "name": "Oddish"
-        
-    },
-    {
-       "id": "43",
-       "name": "Gloom"
-        
-    },
-    {
-       "id": "44",
-       "name": "Vileplume"
-        
-    },
-    {
-       "id": "45",
-       "name": "Paras"
-        
-    },
-    {
-       "id": "46",
-       "name": "Parasect"
-        
-    },
-    {
-       "id": "47",
-       "name": "Venonat"
-        
-    },
-    {
-       "id": "48",
-       "name": "Venomoth"
-        
-    },
-    {
-       "id": "49",
-       "name": "Diglett"
-        
-    },
-    {
-       "id": "50",
-       "name": "Dugtrio"
-    
-    },
-    {
-       "id": "51",
-       "name": "Meowth"
-        
-    },
-    {
-       "id": "52",
-       "name": "Persian"
-        
-    },
-    {
-       "id": "53",
-       "name": "Psyduck"
-        
-    },
-    {
-       "id": "54",
-       "name": "Golduck"
-        
-    },
-    {
-       "id": "55",
-       "name": "Mankey"
-        
-    },
-    {
-       "id": "56",
-       "name": "Primeape"
-        
-    },
-    {
-       "id": "57",
-       "name": "Growlithe"
-        
-    },
-    {
-       "id": "58",
-       "name": "Arcanine"
-        
-    },
-    {
-       "id": "59",
-       "name": "Poliwag"
-        
-    },
-    {
-       "id": "60",
-       "name": "Poliwhirl"
-        
-    },
-    {
-       "id": "61",
-       "name": "Poliwrath"
-        
-    },
-    {
-       "id": "62",
-       "name": "Abra"
-        
-    },
-    {
-       "id": "63",
-       "name": "Kadabra"
-        
-    },
-    {
-       "id": "64",
-       "name": "Alakazam"
-        
-    },
-    {
-       "id": "65",
-       "name": "Machop"
-    
-    },
-    {
-       "id": "66",
-       "name": "Machoke"
-        
-    },
-    {
-       "id": "67",
-       "name": "Machamp"
-    
-    },
-    {
-       "id": "68",
-       "name": "Bellsprout"
-        
-    },
-    {
-       "id": "69",
-       "name": "Weepinbell"
-        
-    },
-    {
-       "id": "70",
-       "name": "Victreebel"
-        
-    },
-    {
-       "id": "71",
-       "name": "Tentacool"
-    
-    },
-    {
-       "id": "72",
-       "name": "Tentacruel"
-        
-    },
-    {
-       "id": "73",
-       "name": "Geodude"
-        
-    },
-    {
-       "id": "74",
-       "name": "Graveler"
-        
-    },
-    {
-       "id": "75",
-       "name": "Golem"
-        
-    },
-    {
-       "id": "76",
-       "name": "Ponyta"
-        
-    },
-    {
-       "id": "77",
-       "name": "Rapidash"
-        
-    },
-    {
-       "id": "78",
-       "name": "Slowpoke"
-        
-    },
-    {
-       "id": "79",
-       "name": "Slowbro"
-        
-    },
-    {
-       "id": "80",
-       "name": "Magnemite"
-        
-    },
-    {
-       "id": "81",
-       "name": "Magneton"
-        
-    },
-    {
-       "id": "82",
-       "name": "Farfetchd"
-        
-    },
-    {
-       "id": "83",
-       "name": "Doduo"
-        
-    },
-    {
-       "id": "84",
-       "name": "Dodrio"
-        
-    },
-    {
-       "id": "85",
-       "name": "Seel"
-        
-    },
-    {
-       "id": "86",
-       "name": "Dewgong"
-        
-    },
-    {
-       "id": "87",
-       "name": "Grimer"
-        
-    },
-    {
-       "id": "88",
-       "name": "Muk"
-        
-    },
-    {
-       "id": "89",
-       "name": "Shellder"
-        
-    },
-    {
-       "id": "90",
-       "name": "Cloyster"
-    
-    },
-    {
-       "id": "91",
-       "name": "Gastly"
-        
-    },
-    {
-       "id": "92",
-       "name": "Haunter"
-        
-    },
-    {
-       "id": "93",
-       "name": "Gengar"
-        
-    },
-    {
-       "id": "94",
-       "name": "Onix"
-        
-    },
-    {
-       "id": "95",
-       "name": "Drowzee"
-        
-    },
-    {
-       "id": "96",
-       "name": "Hypno"
-        
-    },
-    {
-       "id": "97",
-       "name": "Krabby"
-        
-    },
-    {
-       "id": "98",
-       "name": "Kingler"
-        
-    },
-    {
-       "id": "99",
-       "name": "Voltorb"
-        
-    },
-    {
-       "id": "100",
-       "name": "Electrode"
-        
-    },
-    {
-       "id": "101",
-       "name": "Exeggcute"
-    
-    },
-    {
-       "id": "102",
-       "name": "Exeggutor"
-        
-    },
-    {
-       "id": "103",
-       "name": "Cubone"
-        
-    },
-    {
-       "id": "104",
-       "name": "Marowak"
-        
-    },
-    {
-       "id": "105",
-       "name": "Hitmonlee"
-        
-    },
-    {
-       "id": "106",
-       "name": "Hitmonchan"
-        
-    },
-    {
-       "id": "107",
-       "name": "Lickitung"
-        
-    },
-    {
-       "id": "108",
-       "name": "Koffing"
-        
-    },
-    {
-       "id": "109",
-       "name": "Weezing"
-        
-    },
-    {
-       "id": "110",
-       "name": "Rhyhorn"
-        
-    },
-    {
-       "id": "111",
-       "name": "Rhydon"
-        
-    },
-    {
-       "id": "112",
-       "name": "Chansey"
-        
-    },
-    {
-       "id": "113",
-       "name": "Tangela"
-        
-    },
-    {
-       "id": "114",
-       "name": "Kangaskhan"
-        
-    },
-    {
-       "id": "115",
-       "name": "Horsea"
-        
-    },
-    {
-       "id": "116",
-       "name": "Seadra"
-        
-    },
-    {
-       "id": "117",
-       "name": "Goldeen"
-        
-    },
-    {
-       "id": "118",
-       "name": "Seaking"
-        
-    },
-    {
-       "id": "119",
-       "name": "Staryu"
-        
-    },
-    {
-       "id": "120",
-       "name": "Starmie"
-        
-    },
-    {
-       "id": "121",
-       "name": "Mr-Mime"
-        
-    },
-    {
-       "id": "122",
-       "name": "Scyther"
-        
-    },
-    {
-       "id": "123",
-       "name": "Jynx"
-        
-    },
-    {
-       "id": "124",
-       "name": "Electabuzz"
-        
-    },
-    {
-       "id": "125",
-       "name": "Magmar"
-        
-    },
-    {
-       "id": "126",
-       "name": "Pinsir"
-        
-    },
-    {
-       "id": "127",
-       "name": "Tauros"
-        
-    },
-    {
-       "id": "128",
-       "name": "Magikarp"
-        
-    },
-    {
-       "id": "129",
-       "name": "Gyarados"
-        
-    },
-    {
-       "id": "130",
-       "name": "Lapras"
-        
-    },
-    {
-       "id": "131",
-       "name": "Ditto"
-        
-    },
-    {
-       "id": "132",
-       "name": "Eevee"
-        
-    },
-    {
-       "id": "133",
-       "name": "Vaporeon"
-        
-    },
-    {
-       "id": "134",
-       "name": "Jolteon"
-        
-    },
-    {
-       "id": "135",
-       "name": "Flareon"
-        
-    },
-    {
-       "id": "136",
-       "name": "Porygon"
-        
-    },
-    {
-       "id": "137",
-       "name": "Omanyte"
-        
-    },
-    {
-       "id": "138",
-       "name": "Omastar"
-        
-    },
-    {
-       "id": "139",
-       "name": "Kabuto"
-        
-    },
-    {
-       "id": "140",
-       "name": "Kabutops"
-        
-    },
-    {
-       "id": "141",
-       "name": "Aerodactyl"
-        
-    },
-    {
-       "id": "142",
-       "name": "Snorlax"
-        
-    },
-    {
-       "id": "143",
-       "name": "Articuno"
-        
-    },
-    {
-       "id": "144",
-       "name": "Zapdos"
-        
-    },
-    {
-       "id": "145",
-       "name": "Moltres"
-        
-    },
-    {
-       "id": "146",
-       "name": "Dratini"
-        
-    },
-    {
-       "id": "147",
-       "name": "Dragonair"
-        
-    },
-    {
-       "id": "148",
-       "name": "Dragonite"
-        
-    },
-    {
-       "id": "149",
-       "name": "Mewtwo"
-        
-    },
-    {
-       "id": "150",
-       "name": "Mew"
-        
-    }
- ]
- 
- 
+   { "name": "bulbasaur", "url": "https://pokeapi.co/api/v2/pokemon/1/", "id": 1},
+   { "name": "ivysaur", "url": "https://pokeapi.co/api/v2/pokemon/2/", "id": 2},
+   { "name": "venusaur", "url": "https://pokeapi.co/api/v2/pokemon/3/", "id": 3 },
+   { "name": "charmander", "url": "https://pokeapi.co/api/v2/pokemon/4/", "id": 4 },
+   { "name": "charmeleon", "url": "https://pokeapi.co/api/v2/pokemon/5/", "id": 5 },
+   { "name": "charizard", "url": "https://pokeapi.co/api/v2/pokemon/6/", "id": 6 },
+   { "name": "squirtle", "url": "https://pokeapi.co/api/v2/pokemon/7/", "id": 7 },
+   { "name": "wartortle", "url": "https://pokeapi.co/api/v2/pokemon/8/", "id": 8 },
+   { "name": "blastoise", "url": "https://pokeapi.co/api/v2/pokemon/9/", "id": 9 },
+   { "name": "caterpie", "url": "https://pokeapi.co/api/v2/pokemon/10/", "id": 10 },
+   { "name": "metapod", "url": "https://pokeapi.co/api/v2/pokemon/11/", "id": 11 },
+   { "name": "butterfree", "url": "https://pokeapi.co/api/v2/pokemon/12/", "id": 12 },
+   { "name": "weedle", "url": "https://pokeapi.co/api/v2/pokemon/13/", "id": 13 },
+   { "name": "kakuna", "url": "https://pokeapi.co/api/v2/pokemon/14/", "id": 14 },
+   { "name": "beedrill", "url": "https://pokeapi.co/api/v2/pokemon/15/", "id": 15 },
+   { "name": "pidgey", "url": "https://pokeapi.co/api/v2/pokemon/16/", "id": 16 },
+   { "name": "pidgeotto", "url": "https://pokeapi.co/api/v2/pokemon/17/", "id": 17 },
+   { "name": "pidgeot", "url": "https://pokeapi.co/api/v2/pokemon/18/", "id": 18 },
+   { "name": "rattata", "url": "https://pokeapi.co/api/v2/pokemon/19/", "id": 19 },
+   { "name": "raticate", "url": "https://pokeapi.co/api/v2/pokemon/20/", "id": 20 },
+   { "name": "spearow", "url": "https://pokeapi.co/api/v2/pokemon/21/", "id": 21 },
+   { "name": "fearow", "url": "https://pokeapi.co/api/v2/pokemon/22/", "id": 22 },
+   { "name": "ekans", "url": "https://pokeapi.co/api/v2/pokemon/23/", "id": 23 },
+   { "name": "arbok", "url": "https://pokeapi.co/api/v2/pokemon/24/", "id": 24 },
+   { "name": "pikachu", "url": "https://pokeapi.co/api/v2/pokemon/25/", "id": 25 },
+   { "name": "raichu", "url": "https://pokeapi.co/api/v2/pokemon/26/", "id": 26 },
+   { "name": "sandshrew", "url": "https://pokeapi.co/api/v2/pokemon/27/", "id": 27 },
+   { "name": "sandslash", "url": "https://pokeapi.co/api/v2/pokemon/28/", "id": 28 },
+   { "name": "nidoran-f", "url": "https://pokeapi.co/api/v2/pokemon/29/", "id": 29 },
+   { "name": "nidorina", "url": "https://pokeapi.co/api/v2/pokemon/30/", "id": 30 },
+   { "name": "nidoqueen", "url": "https://pokeapi.co/api/v2/pokemon/31/", "id": 31 },
+   { "name": "nidoran-m", "url": "https://pokeapi.co/api/v2/pokemon/32/", "id": 32 },
+   { "name": "nidorino", "url": "https://pokeapi.co/api/v2/pokemon/33/", "id": 33 },
+   { "name": "nidoking", "url": "https://pokeapi.co/api/v2/pokemon/34/", "id": 34 },
+   { "name": "clefairy", "url": "https://pokeapi.co/api/v2/pokemon/35/", "id": 35 },
+   { "name": "clefable", "url": "https://pokeapi.co/api/v2/pokemon/36/", "id": 36 },
+   { "name": "vulpix", "url": "https://pokeapi.co/api/v2/pokemon/37/", "id": 37 },
+   { "name": "ninetales", "url": "https://pokeapi.co/api/v2/pokemon/38/", "id": 38 },
+   { "name": "jigglypuff", "url": "https://pokeapi.co/api/v2/pokemon/39/", "id": 39 },
+   { "name": "wigglytuff", "url": "https://pokeapi.co/api/v2/pokemon/40/", "id": 40 },
+   { "name": "zubat", "url": "https://pokeapi.co/api/v2/pokemon/41/", "id": 41 },
+   { "name": "golbat", "url": "https://pokeapi.co/api/v2/pokemon/42/", "id": 42 },
+   { "name": "oddish", "url": "https://pokeapi.co/api/v2/pokemon/43/", "id": 43 },
+   { "name": "gloom", "url": "https://pokeapi.co/api/v2/pokemon/44/", "id": 44 },
+   { "name": "vileplume", "url": "https://pokeapi.co/api/v2/pokemon/45/", "id": 45 },
+   { "name": "paras", "url": "https://pokeapi.co/api/v2/pokemon/46/", "id": 46 },
+   { "name": "parasect", "url": "https://pokeapi.co/api/v2/pokemon/47/", "id": 47 },
+   { "name": "venonat", "url": "https://pokeapi.co/api/v2/pokemon/48/", "id": 48 },
+   { "name": "venomoth", "url": "https://pokeapi.co/api/v2/pokemon/49/", "id": 49 },
+   { "name": "diglett", "url": "https://pokeapi.co/api/v2/pokemon/50/", "id": 50 },
+   { "name": "dugtrio", "url": "https://pokeapi.co/api/v2/pokemon/51/", "id": 51 },
+   { "name": "meowth", "url": "https://pokeapi.co/api/v2/pokemon/52/" , "id": 52},
+   { "name": "persian", "url": "https://pokeapi.co/api/v2/pokemon/53/" , "id": 53},
+   { "name": "psyduck", "url": "https://pokeapi.co/api/v2/pokemon/54/" , "id": 54 },
+   { "name": "golduck", "url": "https://pokeapi.co/api/v2/pokemon/55/" , "id": 55 },
+   { "name": "mankey", "url": "https://pokeapi.co/api/v2/pokemon/56/" , "id": 56},
+   { "name": "primeape", "url": "https://pokeapi.co/api/v2/pokemon/57/" , "id": 57},
+   { "name": "growlithe", "url": "https://pokeapi.co/api/v2/pokemon/58/" , "id": 58},
+   { "name": "arcanine", "url": "https://pokeapi.co/api/v2/pokemon/59/" , "id": 59},
+   { "name": "poliwag", "url": "https://pokeapi.co/api/v2/pokemon/60/" , "id": 60},
+   { "name": "poliwhirl", "url": "https://pokeapi.co/api/v2/pokemon/61/" , "id": 61},
+   { "name": "poliwrath", "url": "https://pokeapi.co/api/v2/pokemon/62/" , "id": 62},
+   { "name": "abra", "url": "https://pokeapi.co/api/v2/pokemon/63/" , "id": 63},
+   { "name": "kadabra", "url": "https://pokeapi.co/api/v2/pokemon/64/" , "id": 64},
+   { "name": "alakazam", "url": "https://pokeapi.co/api/v2/pokemon/65/" , "id": 65},
+   { "name": "machop", "url": "https://pokeapi.co/api/v2/pokemon/66/" , "id": 66},
+   { "name": "machoke", "url": "https://pokeapi.co/api/v2/pokemon/67/" , "id": 67},
+   { "name": "machamp", "url": "https://pokeapi.co/api/v2/pokemon/68/" , "id": 68},
+   { "name": "bellsprout", "url": "https://pokeapi.co/api/v2/pokemon/69/" , "id": 69},
+   { "name": "weepinbell", "url": "https://pokeapi.co/api/v2/pokemon/70/" , "id": 70},
+   { "name": "victreebel", "url": "https://pokeapi.co/api/v2/pokemon/71/" , "id": 71},
+   { "name": "tentacool", "url": "https://pokeapi.co/api/v2/pokemon/72/" , "id": 72},
+   { "name": "tentacruel", "url": "https://pokeapi.co/api/v2/pokemon/73/" , "id": 73},
+   { "name": "geodude", "url": "https://pokeapi.co/api/v2/pokemon/74/" , "id": 74},
+   { "name": "graveler", "url": "https://pokeapi.co/api/v2/pokemon/75/" , "id": 75},
+   { "name": "golem", "url": "https://pokeapi.co/api/v2/pokemon/76/" , "id": 76},
+   { "name": "ponyta", "url": "https://pokeapi.co/api/v2/pokemon/77/" , "id": 77},
+   { "name": "rapidash", "url": "https://pokeapi.co/api/v2/pokemon/78/" , "id": 78},
+   { "name": "slowpoke", "url": "https://pokeapi.co/api/v2/pokemon/79/" , "id": 79},
+   { "name": "slowbro", "url": "https://pokeapi.co/api/v2/pokemon/80/" , "id": 80},
+   { "name": "magnemite", "url": "https://pokeapi.co/api/v2/pokemon/81/" , "id": 81},
+   { "name": "magneton", "url": "https://pokeapi.co/api/v2/pokemon/82/" , "id": 82},
+   { "name": "farfetchd", "url": "https://pokeapi.co/api/v2/pokemon/83/" , "id": 83},
+   { "name": "doduo", "url": "https://pokeapi.co/api/v2/pokemon/84/" , "id": 84},
+   { "name": "dodrio", "url": "https://pokeapi.co/api/v2/pokemon/85/" , "id": 85},
+   { "name": "seel", "url": "https://pokeapi.co/api/v2/pokemon/86/" , "id": 86},
+   { "name": "dewgong", "url": "https://pokeapi.co/api/v2/pokemon/87/" , "id": 87},
+   { "name": "grimer", "url": "https://pokeapi.co/api/v2/pokemon/88/" , "id": 88},
+   { "name": "muk", "url": "https://pokeapi.co/api/v2/pokemon/89/" , "id": 89},
+   { "name": "shellder", "url": "https://pokeapi.co/api/v2/pokemon/90/" , "id": 90},
+   { "name": "cloyster", "url": "https://pokeapi.co/api/v2/pokemon/91/" , "id": 91},
+   { "name": "gastly", "url": "https://pokeapi.co/api/v2/pokemon/92/" , "id": 92},
+   { "name": "haunter", "url": "https://pokeapi.co/api/v2/pokemon/93/" , "id":93 },
+   { "name": "gengar", "url": "https://pokeapi.co/api/v2/pokemon/94/" , "id": 94},
+   { "name": "onix", "url": "https://pokeapi.co/api/v2/pokemon/95/" , "id": 95},
+   { "name": "drowzee", "url": "https://pokeapi.co/api/v2/pokemon/96/" , "id": 96},
+   { "name": "hypno", "url": "https://pokeapi.co/api/v2/pokemon/97/" , "id": 97},
+   { "name": "krabby", "url": "https://pokeapi.co/api/v2/pokemon/98/" , "id": 98},
+   { "name": "kingler", "url": "https://pokeapi.co/api/v2/pokemon/99/" , "id": 99},
+   { "name": "voltorb", "url": "https://pokeapi.co/api/v2/pokemon/100/" , "id": 100},
+   { "name": "electrode", "url": "https://pokeapi.co/api/v2/pokemon/101/" , "id": 101},
+   { "name": "exeggcute", "url": "https://pokeapi.co/api/v2/pokemon/102/" , "id": 102},
+   { "name": "exeggutor", "url": "https://pokeapi.co/api/v2/pokemon/103/" , "id": 103},
+   { "name": "cubone", "url": "https://pokeapi.co/api/v2/pokemon/104/" , "id": 104},
+   { "name": "marowak", "url": "https://pokeapi.co/api/v2/pokemon/105/" , "id": 105},
+   { "name": "hitmonlee", "url": "https://pokeapi.co/api/v2/pokemon/106/" , "id": 106},
+   { "name": "hitmonchan", "url": "https://pokeapi.co/api/v2/pokemon/107/" , "id": 107},
+   { "name": "lickitung", "url": "https://pokeapi.co/api/v2/pokemon/108/" , "id": 108},
+   { "name": "koffing", "url": "https://pokeapi.co/api/v2/pokemon/109/" , "id": 109},
+   { "name": "weezing", "url": "https://pokeapi.co/api/v2/pokemon/110/" , "id": 110},
+   { "name": "rhyhorn", "url": "https://pokeapi.co/api/v2/pokemon/111/" , "id": 111},
+   { "name": "rhydon", "url": "https://pokeapi.co/api/v2/pokemon/112/" , "id": 112},
+   { "name": "chansey", "url": "https://pokeapi.co/api/v2/pokemon/113/" , "id": 113},
+   { "name": "tangela", "url": "https://pokeapi.co/api/v2/pokemon/114/" , "id": 114},
+   { "name": "kangaskhan", "url": "https://pokeapi.co/api/v2/pokemon/115/", "id": 115},
+   { "name": "horsea", "url": "https://pokeapi.co/api/v2/pokemon/116/", "id":  116},
+   { "name": "seadra", "url": "https://pokeapi.co/api/v2/pokemon/117/", "id":  117},
+   { "name": "goldeen", "url": "https://pokeapi.co/api/v2/pokemon/118/", "id": 118 },
+   { "name": "seaking", "url": "https://pokeapi.co/api/v2/pokemon/119/", "id":  119},
+   { "name": "staryu", "url": "https://pokeapi.co/api/v2/pokemon/120/", "id":  120},
+   { "name": "starmie", "url": "https://pokeapi.co/api/v2/pokemon/121/", "id": 121 },
+   { "name": "mr-mime", "url": "https://pokeapi.co/api/v2/pokemon/122/", "id": 122 },
+   { "name": "scyther", "url": "https://pokeapi.co/api/v2/pokemon/123/", "id": 123 },
+   { "name": "jynx", "url": "https://pokeapi.co/api/v2/pokemon/124/", "id": 124 },
+   { "name": "electabuzz", "url": "https://pokeapi.co/api/v2/pokemon/125/", "id": 125 },
+   { "name": "magmar", "url": "https://pokeapi.co/api/v2/pokemon/126/", "id": 126 },
+   { "name": "pinsir", "url": "https://pokeapi.co/api/v2/pokemon/127/", "id": 127 },
+   { "name": "tauros", "url": "https://pokeapi.co/api/v2/pokemon/128/", "id": 128 },
+   { "name": "magikarp", "url": "https://pokeapi.co/api/v2/pokemon/129/", "id": 129 },
+   { "name": "gyarados", "url": "https://pokeapi.co/api/v2/pokemon/130/", "id": 130 },
+   { "name": "lapras", "url": "https://pokeapi.co/api/v2/pokemon/131/", "id": 131 },
+   { "name": "ditto", "url": "https://pokeapi.co/api/v2/pokemon/132/", "id": 132 },
+   { "name": "eevee", "url": "https://pokeapi.co/api/v2/pokemon/133/", "id": 133 },
+   { "name": "vaporeon", "url": "https://pokeapi.co/api/v2/pokemon/134/", "id": 134 },
+   { "name": "jolteon", "url": "https://pokeapi.co/api/v2/pokemon/135/", "id": 135 },
+   { "name": "flareon", "url": "https://pokeapi.co/api/v2/pokemon/136/", "id": 136 },
+   { "name": "porygon", "url": "https://pokeapi.co/api/v2/pokemon/137/", "id": 137 },
+   { "name": "omanyte", "url": "https://pokeapi.co/api/v2/pokemon/138/", "id": 138 },
+   { "name": "omastar", "url": "https://pokeapi.co/api/v2/pokemon/139/", "id": 139 },
+   { "name": "kabuto", "url": "https://pokeapi.co/api/v2/pokemon/140/", "id": 140 },
+   { "name": "kabutops", "url": "https://pokeapi.co/api/v2/pokemon/141/", "id": 141 },
+   { "name": "aerodactyl", "url": "https://pokeapi.co/api/v2/pokemon/142/", "id": 142 },
+   { "name": "snorlax", "url": "https://pokeapi.co/api/v2/pokemon/143/", "id": 143 },
+   { "name": "articuno", "url": "https://pokeapi.co/api/v2/pokemon/144/", "id": 144 },
+   { "name": "zapdos", "url": "https://pokeapi.co/api/v2/pokemon/145/", "id": 145 },
+   { "name": "moltres", "url": "https://pokeapi.co/api/v2/pokemon/146/", "id": 146 },
+   { "name": "dratini", "url": "https://pokeapi.co/api/v2/pokemon/147/", "id": 147 },
+   { "name": "dragonair", "url": "https://pokeapi.co/api/v2/pokemon/148/", "id": 148 },
+   { "name": "dragonite", "url": "https://pokeapi.co/api/v2/pokemon/149/", "id": 149 },
+   { "name": "mewtwo", "url": "https://pokeapi.co/api/v2/pokemon/150/", "id": 150 },
+   { "name": "mew", "url": "https://pokeapi.co/api/v2/pokemon/151/", "id": 151}
+]

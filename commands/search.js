@@ -1,4 +1,4 @@
-
+const axios = require('axios')
 
 module.exports = {
     name: 'search',
@@ -6,36 +6,51 @@ module.exports = {
     async execute(client, message, Discord, config, pokedex, args, sqlite) {
         args = message.content.trim().split(/ +/g);
 
-        if(!args[1]) message.reply('What pokemon do you want to grab data for?')
-    
+        if (!args[1]) return message.reply('What pokemon do you want to grab data for?')
 
-        let found = false
-        for(let i = 0; i < pokedex.length; i++) {
-            if(pokedex[i].name.toLowerCase() !== args[1].toLowerCase()) continue
+        let i;
+        for (i = 0; i < pokedex.length; i++) {
+            if (args[1].toLowerCase() !== pokedex[i].name) continue
             else {
-                message.reply(`Found It! ID: ${pokedex[i].id}`)
-                found = true
+                console.log(pokedex[i].id)
+                break;
             }
         }
 
+        if (i >= 151) {
+            for (i = 0; i < pokedex.length; i++) {
+                if (args[1].toLowerCase() != pokedex[i].id) continue
+                else {
+                    console.log(pokedex[i].name)
 
-        setTimeout(function() {
-             if(found === false) {
-                for(i = 0; i < pokedex.length; i++) {
-                    if(pokedex[i].id.toLowerCase() !== args[1].toLowerCase()) continue
-                    else {
-                        message.reply(`Found It! Name: ${pokedex[i].name}`)
-                        found = true
-                    }
-                } 
-            }
-            setTimeout(function() {
-                if(found === false) {
-                    message.reply(`I couldn\'t find ${args[1].toLowerCase()} in my Pokédex!`) 
+                    break;
                 }
-            }, 1000)
+            }
 
-        }, 1000)
-    
+            if (i >= 151) {
+                return message.reply('I couldn\'t Find that Pokemon in the database!')
+            }
+        }
+        let resp = await axios.get(`${pokedex[i].url}`)
+        let body = '\n'
+        for(let i2 = 0; i2 < resp.data.stats.length; i2++) {
+            body += `${resp.data.stats[i2].stat.name.toUpperCase()}: ${resp.data.stats[i2].base_stat}\n`
+        }
+
+        const embedToSend = new Discord.MessageEmbed()
+            .setThumbnail(resp.data.sprites.front_default)
+            .setTitle(`${pokedex[i].name.toUpperCase()}'s Info Card`)
+            .setDescription(`
+ID: ${pokedex[i].id}
+
+__Base Stats__
+${body}            
+`)
+
+        message.reply(embedToSend)
+
+
+
+
     }
 }

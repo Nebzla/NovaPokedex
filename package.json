@@ -9,6 +9,7 @@
   "author": "Nebzla#5032",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.21.1",
     "discord.js": "^12.5.3",
     "sqlite": "^4.0.23",
     "sqlite3": "^5.0.2"

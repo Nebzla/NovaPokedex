@@ -38,5 +38,13 @@ Discord: Nebzla#5032
 
 favorite <pokemon> - Favourite a pokemon from the pokedex, <pokemon> accepts name or id
  
+<<<<<<< Updated upstream
 search <pokemon> - Search a pokemon by their id or name (searching id returns name, searching name returns id)
+=======
+search <pokemon> - Search a pokemon by their id or name. Returns the pokemon's name, id and base stats
+
+moves <pokemon> - Return all the pokemon's moves OR
+
+moves <pokemon> <move> - Return info about a specific pokemon's move
+>>>>>>> Stashed changes
 

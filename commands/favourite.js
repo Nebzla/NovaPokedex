@@ -2,11 +2,12 @@
 
 module.exports = {
     name: 'favorite',
+    aliases: ['favourite'],
     description: 'favourite a certain pokemon',
     async execute(client, message, Discord, config, pokedex, args, sqlite) {
         args = message.content.trim().split(/ +/g);
 
-        if(!args[1]) message.reply('What pokemon do you want to favourite?')
+        if(!args[1]) return message.reply('What pokemon do you want to favourite?')
     
         let pokemon
         let pokemonId
@@ -46,8 +47,7 @@ module.exports = {
                         insertdata.run(message.author.id, message.author.tag, pokemon, pokemonId)
                         insertdata.finalize()
                         message.reply(`I went ahead and added ${pokemon} (ID: ${pokemonId}) as your favourite Pokémon!`)
-                        const role = message.guild.roles.cache.find(role => role.name === `${pokemon}`);
-                        message.member.roles.add(role)
+                        // const role = message.guild.roles.cache.find(role => role.name === `${pokemon}`);
                         // message.member.setNickname(`${message.author.username} [${pokemon}]`)
                         
                     }
@@ -55,10 +55,8 @@ module.exports = {
 
                         if(row.favoritePokemon === pokemon) return message.reply('You already have that Pokémon favourited!')
                         db.run(`UPDATE userPreferences SET userid = ?, usertag = ?, favoritePokemon = ?, pokemonId = ? WHERE userid = ?`, [message.author.id, message.author.tag, pokemon, pokemonId, message.author.id])
-                        const role = message.guild.roles.cache.find(role => role.name === `${pokemon}`);
-                        const role2 = message.guild.roles.cache.find(role => role.name === `${row.favoritePokemon}`);
-                        message.member.roles.add(role.id)
-                        message.member.roles.remove(role2.id)
+                        // const role = message.guild.roles.cache.find(role => role.name === `${pokemon}`);
+                        // const role2 = message.guild.roles.cache.find(role => role.name === `${row.favoritePokemon}`);
                         // message.member.setNickname(`${message.author.username} [${pokemon}]`)
                         message.reply(`I went ahead and changed your favourite Pokémon from ${row.favoritePokemon} To: ${pokemon} (ID: ${pokemonId}) as your favourite Pokémon!`)
                     
